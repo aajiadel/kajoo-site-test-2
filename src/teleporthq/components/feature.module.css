@@ -1,0 +1,115 @@
+.feature {
+  display: flex;
+  padding: var(--dl-space-space-tenunits);
+  max-width: var(--dl-size-size-maxcontent);
+}
+.container {
+  width: 35%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: center;
+}
+.text {
+  color: var(--dl-color-gray-almostblack);
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.text1 {
+  color: var(--dl-color-gray-almostblack);
+}
+.container1 {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.Image {
+  width: 100%;
+  object-fit: cover;
+}
+.rootClassName {
+  background-color: var(--dl-color-primary-red);
+}
+.rootClassName1 {
+  background-color: var(--dl-color-gray-700);
+}
+.rootClassName2 {
+  background-color: var(--dl-color-danger-300);
+}
+.rootClassName3 {
+  background-color: #e9be48;
+}
+.rootClassName4 {
+  background-color: var(--dl-color-danger-300);
+}
+.rootClassName6 {
+  background-color: var(--dl-color-light-light-orange);
+}
+.rootClassName7 {
+  background-color: var(--dl-color-light-light-yellow);
+}
+.rootClassName8 {
+  background-color: var(--dl-color-light-light-orange);
+}
+@media(max-width: 991px) {
+  .feature {
+    padding-left: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-fiveunits);
+  }
+  .rootClassName6 {
+    background-color: var(--dl-color-light-light-orange);
+  }
+  .rootClassName7 {
+    background-color: var(--dl-color-light-light-yellow);
+  }
+  .rootClassName8 {
+    background-color: var(--dl-color-light-light-orange);
+  }
+}
+@media(max-width: 767px) {
+  .feature {
+    padding: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    align-items: center;
+    padding-right: 0px;
+  }
+  .text {
+    text-align: left;
+  }
+  .text1 {
+    text-align: left;
+  }
+  .container1 {
+    width: auto;
+  }
+  .Image {
+    width: 100%;
+  }
+  .rootClassName6 {
+    background-color: var(--dl-color-light-light-orange);
+  }
+  .rootClassName7 {
+    background-color: var(--dl-color-light-light-yellow);
+  }
+  .rootClassName8 {
+    background-color: var(--dl-color-light-light-orange);
+  }
+}
+@media(max-width: 479px) {
+  .feature {
+    padding: var(--dl-space-space-fiveunits);
+  }
+  .Image {
+    width: 100%;
+  }
+  .rootClassName6 {
+    background-color: var(--dl-color-light-light-orange);
+  }
+}

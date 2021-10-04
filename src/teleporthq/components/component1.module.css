@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.link {
+  color: var(--dl-color-primary-red);
+  margin: 0px;
+  text-decoration: none;
+}
